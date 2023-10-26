@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Epochs</title>
+    <link rel="stylesheet" href="styles.css">
+	<link rel="icon" href="https://cdn.discordapp.com/attachments/1124221552779612282/1167240962385387551/aihubbrasil3.png" type="image/x-icon">
+</head>
+<body>    
+	<div class="background">
+		<div class="overlay"></div>
+		<div class="video-container">
+			<video autoplay muted loop id="video-background">
+			  <source src="https://vod-progressive.akamaized.net/exp=1690338576~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4172%2F13%2F345862014%2F1390061316.mp4~hmac=2e75866ce6b79a8cd6c4b1693c293d7fb69ab5a045f443958c00369f0fdb2695/vimeo-prod-skyfire-std-us/01/4172/13/345862014/1390061316.mp4" type="video/mp4">
+			  Your browser does not support the video tag.
+			</video>
+		
+		<div class="overlay"></div>
+		<div class="container">
+			<h1>Calculadora de Epochs</h1>
+			<label for="epochsInicio">Número de Epochs Inicial:</label>
+			<input type="text" id="epochsInicio">
+
+			<label for="epochsFim">Número de Epochs Final:</label>
+			<input type="text" id="epochsFim">
+
+			<label for="tempoMedio">Tempo médio por Epoch (segundos):</label>
+			<input type="text" id="tempoMedio">
+
+			<button onclick="calcularTempoTotal()">Calcular Tempo Total</button>
+
+			<div id="resultado"></div>
+
+			<!-- Links de redes sociais -->
+			<div class="social-links">
+				<a href="https://discord.gg/aihubbrasil" target="_blank"><img src="images\discord.png" alt="Discord"></a>
+				<a href="https://twitter.com/aihubbrasil" target="_blank"><img src="images\twitter.png" alt="Twitter"></a>
+				<a href="https://instagram.com/aihubbrasil" target="_blank"><img src="images\instagram.png" alt="Instagram"></a>
+			</div>
+
+			<!-- Créditos -->
+			<p class="credits">Desenvolvido por Kimi Morgam e Rafa.Godoy</p>
+		</div>
+		<script src="script.js"></script>
+	</div>
+</body>
+</html>
