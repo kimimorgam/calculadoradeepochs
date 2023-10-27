@@ -15,7 +15,7 @@ Uma calculadora simples que estima o tempo total com base no número de épocas 
 - Desenvolvimento Web
 
 ## Demonstração Online
-Você pode experimentar a calculadora online [aqui](https://kimimorgam.github.io/calculadoradeepochs/)).
+Você pode experimentar a calculadora online [aqui](https://kimimorgam.github.io/calculadoradeepochs/).
 
 ## Como Executar Localmente
 1. Faça o download ou clone este repositório.
